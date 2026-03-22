@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -50,12 +53,6 @@ ol {
   background-color: #D9D9D9;
 }
 
-.page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .content {
   display: flex;
   width: 1140px;
@@ -92,8 +89,12 @@ ol {
 }
 
 .content__list-container {
+  position: relative;
+  display: flex;
   height: 298px;
   overflow-block: scroll;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .result__video-container {
@@ -117,13 +118,6 @@ ol {
 
 .content__list-item {
   padding: 3px 3px 0 3px;
-}
-
-.content__list-container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
 }
 
 .content__video-card {
