@@ -64,8 +64,6 @@ ol {
   gap: 30px;
 }
 
-.result {}
-
 .search-form {
   display: flex;
   justify-content: space-between;
