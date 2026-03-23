@@ -56,7 +56,6 @@ ol {
 .content {
   display: flex;
   width: 1140px;
-  height: 534px;
   align-items: flex-end;
   gap: 30px;
 }
@@ -273,6 +272,7 @@ ol {
 
 .button {
   display: flex;
+  height: 34px;
   justify-content: center;
   align-items: center;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -305,10 +305,9 @@ ol {
 .search-form__submit-button {
   align-self: flex-end;
   width: 194px;
-  height: 34px;
 }
 
 .more-button {
-  height: 34px;
   width: 100%;
+  padding: 5.5px 0;
 }
